@@ -1,5 +1,6 @@
-environment:
-  nodejs_version: "20"
+image: Ubuntu2204  # образ для сборки
+
+stack: node 20  # окружение
 
 branches:
   only:
