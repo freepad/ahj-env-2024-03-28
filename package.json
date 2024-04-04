@@ -21,6 +21,7 @@
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.0",
+    "copy-webpack-plugin": "^12.0.2",
     "css-loader": "^6.7.2",
     "css-minimizer-webpack-plugin": "^4.2.2",
     "eslint": "^8.27.0",
@@ -37,5 +38,9 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.0.0"
   }
 }
